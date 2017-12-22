@@ -1,0 +1,112 @@
+* {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                background-color: white;
+            }
+            #container ul{
+                list-style: none;
+                
+            }
+            #container ul li{
+                background-color: gray;
+                width: 175px;
+                height: 50px;
+                line-height: 50px;
+                color: white;
+                font-size: 18px;
+                text-align: center;
+                float: left;
+                position: relative;
+                z-index: 1;
+                 font-family: 'Oswald', sans-serif;
+                
+            }
+            #home{
+                margin-left: 350px;
+            }
+            #container ul ul{
+                display: none;
+            }
+            #container ul li:hover ul{
+                display:inline-block;
+                background-color: white;
+                color: black;
+               
+                
+            }
+             ul  li a:link,a:visited{
+                color: white;
+                text-decoration: none;
+             }
+             ul  li:hover a{
+                text-decoration: none;
+                background-color: white;
+                display: inline-block;
+                width: 175px;
+                height: 50px;
+                color: black;
+            }
+            
+        
+
+
+        
+       
+       
+        .flip3D{
+
+
+
+            margin-left: 20px;
+            width: 300px;
+            height: 300px;
+            margin: 10px;
+            float: left;
+
+        }
+        .front{
+            
+            margin-left: 20px;
+            position: absolute;
+            transform: perspective(600px) rotateY(0deg);
+            background:#F6CFE1  ;
+            width: 300px;
+            height: 300px;
+            border-radius: 7px;
+            backface-visibility: hidden;
+            transition: transform .5s linear 0s;
+            font-family: 'Bungee', cursive;
+             font-size: 2em;
+             text-align: center;
+
+
+
+        }
+        .back{
+           
+
+            margin-left:20px;
+            position: absolute;
+            transform: perspective(600px) rotateY(0deg);
+            background:#87F2F7  ;
+            width: 300px;
+            height: 300px;
+            border-radius: 7px;
+             font-family: 'Alegreya', serif;
+             text-align: center;
+             font-size: 1.75em;
+            
+            transition: transform .5s linear 0s;
+        }
+        .flip3D:hover>.front{
+            transform: rotateY(180deg);
+        }
+        p{
+            padding-top: 75px;
+        }
+      .anchor1{
+        font-color:black;
+      }
+    
