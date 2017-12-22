@@ -140,7 +140,7 @@
             background-color: #f2e9e9;
             margin-top:0;
         }
-         @media(max-width: 768px){
+         @media(max-width: 1050px){
 
  #container ul{
                 list-style: none;

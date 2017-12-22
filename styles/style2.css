@@ -109,7 +109,7 @@
       .anchor1{
         font-color:black;
       }
-       @media(max-width: 768px){
+       @media(max-width: 1050px){
 
  #container ul{
                 list-style: none;
