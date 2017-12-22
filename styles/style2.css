@@ -109,4 +109,20 @@
       .anchor1{
         font-color:black;
       }
+       @media(max-width: 768px){
+
+ #container ul{
+                list-style: none;
+                
+            }
+            #container ul li{
+                background-color: gray;
+                width: 100%;
+                
+               
+            }
+            #home{
+                margin-left: 0;
+                            }
+                        }
     

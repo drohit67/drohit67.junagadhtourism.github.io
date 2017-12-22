@@ -172,3 +172,44 @@
     height: auto;
 
 }
+@media(max-width: 768px){
+
+#container ul{
+                list-style: none;
+                
+            }
+            #container ul li{
+                background-color: gray;
+                width: 100%;
+                
+               
+            }
+            #home{
+                margin-left: 0;
+                            }
+
+             .text-fling li {
+                display: inline-block;
+                margin-right: 00px;
+                font-family: Open Sans, Arial;
+                font-weight: 300;
+                font-size: 0.75em;
+                color: #fff;
+                opacity: 1;
+                transition: all 2.5s ease;
+            }
+            .text-fling li:last-child {
+                margin-right: 0;
+            }
+            .text-fling1 li {
+                display: inline-block;
+                margin-right: 00px;
+                font-family: Open Sans, Arial;
+                font-weight: 250;
+                font-size: 0.50em;
+                color: #fff;
+                opacity: 1;
+                transition: all 2.5s ease;
+            }
+
+}

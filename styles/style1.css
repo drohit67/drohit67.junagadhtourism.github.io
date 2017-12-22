@@ -140,4 +140,19 @@
             background-color: #f2e9e9;
             margin-top:0;
         }
-        #88ea78
+         @media(max-width: 768px){
+
+ #container ul{
+                list-style: none;
+                
+            }
+            #container ul li{
+                background-color: gray;
+                width: 100%;
+                
+               
+            }
+            #home{
+                margin-left: 0;
+                            }
+                        }
